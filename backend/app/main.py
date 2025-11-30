@@ -3,7 +3,6 @@
 from fastapi import FastAPI
 from app.core.config import get_settings
 from fastapi.middleware.cors import CORSMiddleware
-from backend.app.models import ml_model
 from contextlib import asynccontextmanager
 
 settings = get_settings()
