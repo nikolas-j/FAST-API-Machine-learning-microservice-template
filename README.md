@@ -76,6 +76,13 @@ Frontend will be available at http://localhost:3000
 - Error handling and loading states
 - Chart.js ready for visualizations
 
+### API Endpoints
+
+- `GET /api/v1/data` - Fetch sample data
+- `POST /api/v1/predict` - Make predictions
+
+See http://localhost:8000/docs for full API documentation.
+
 ## Use Cases
 
 This template is ideal for:
@@ -84,15 +91,6 @@ This template is ideal for:
 - 🚀 Rapid prototyping of ML applications
 - 🏗️ Building production ML microservices
 - 📈 Visualizing model predictions and data
-
-## Development
-
-### API Endpoints
-
-- `GET /api/v1/data` - Fetch sample data
-- `POST /api/v1/predict` - Make predictions
-
-See http://localhost:8000/docs for full API documentation.
 
 ## Configuration
 
