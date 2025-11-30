@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "read-from-env"
     EXTERNAL_API_URL: str = "read-from-env"
     API_KEY: str = "read-from-env"
-    ALLOWED_ORIGINS: list[str] = ["http://localhost:8000"]
+    ALLOWED_ORIGINS: list[str] = ["http://localhost:8000","http://localhost:3000"]
 
     model_config = SettingsConfigDict(
         env_file=".env",
