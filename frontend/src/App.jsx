@@ -57,7 +57,7 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1>ML Microservice Demo</h1>
+        <h1>ML Microservice</h1>
         <p className="subtitle">Simple interface to interact with FastAPI backend</p>
 
         {/* Fetch Data Section */}
