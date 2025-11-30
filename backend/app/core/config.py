@@ -5,12 +5,12 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
 
-    APP_NAME: str = "ML Fullstack Demo"
-    DATABASE_URL: str = "postgresql://user:pass@localhost/db"
-    EXTERNAL_API_URL: str = "https://api.example.com/data"
-    API_KEY: str | None = None
-    MODEL_PATH: str = "models/model.pkl"
-    ALLOWED_ORIGINS: list[str] = ["http://localhost:3000"]
+    APP_NAME: str = "FAST API ML Backend"
+    DEBUG: bool = False
+    DATABASE_URL: str = "read-from-env"
+    EXTERNAL_API_URL: str = "read-from-env"
+    API_KEY: str = "read-from-env"
+    ALLOWED_ORIGINS: list[str] = ["http://localhost:8000"]
 
     model_config = SettingsConfigDict(
         env_file=".env",
