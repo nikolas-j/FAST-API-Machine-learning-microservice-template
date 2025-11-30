@@ -1,4 +1,4 @@
-# Backend API
+# Backend
 
 FAST API based machine learning microservice backend template.
 
