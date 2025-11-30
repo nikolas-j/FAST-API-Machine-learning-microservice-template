@@ -1,4 +1,4 @@
-# FAST API  Template
+# FAST API Machine Learning Microservice Template
 
 A prototyping-ready boilerplate for building ML microservices with FastAPI and React.
 
