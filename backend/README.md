@@ -1,9 +1,15 @@
-# Backend API - ML Microservice Template
+# Backend API
 
-FastAPI-based machine learning microservice with Docker support.
+FAST API based machine learning microservice backend template.
 
-Structure of the application enforces best coding practices, scalability and separation of concerns with the API logic and business logic for machine learning predictions separated.
+## Key Benefits
 
+- **Clear separation of concerns:** API endpoints, business logic, and data models are properly organized
+- **API versioning:** Built-in support for versioned endpoints (v1, v2, etc.)
+- **Docker-ready:** Containerized deployment with Docker Compose for easy scaling
+- **Environment-based config:** Secure configuration management with Pydantic Settings
+- **Auto-generated docs:** Interactive API documentation via FastAPI's built-in Swagger/OpenAPI
+- **Type safety:** Full type checking with Pydantic for request/response validation
 
 ## Prerequisites
 
